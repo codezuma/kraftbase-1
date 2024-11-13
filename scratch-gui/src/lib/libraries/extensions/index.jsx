@@ -68,7 +68,7 @@ import onegpioRpiPicoImage from './onegpioRpiPico/onegpioRpiPico.png';
 import onegpioRpiPicoInsetIconURL from './onegpioRpiPico/onegpioRpiPico-small.png';
 
 export default [
-    {
+    /* {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
@@ -339,11 +339,11 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
     }
-,
+, */
     {
         name: 'OneGpio Arduino',
         extensionId: 'onegpioArduino',
-        collaborator: "Mr. Y's Lab",
+        collaborator: "Client XYZ",
         iconURL: onegpioArduinoImage,
         insetIconURL: onegpioArduinoInsetIconURL,
         description: 'OneGPIOArduino',
@@ -355,10 +355,10 @@ export default [
 
     }
 ,
-    {
+   /*  {
         name: 'OneGpio Raspberry Pi',
         extensionId: 'onegpioRpi',
-        collaborator: "Mr. Y's Lab",
+        collaborator: "Client XYZ",
         iconURL: onegpioRpiImage,
         insetIconURL: onegpioRpiInsetIconURL,
         description: 'OneGPIORpi',
@@ -369,11 +369,11 @@ export default [
         helpLink: 'https://mryslab.github.io/s3-extend/'
 
     }
-,
+, */
     {
         name: 'OneGpio ESP-8266',
         extensionId: 'onegpioEsp',
-        collaborator: "Mr. Y's Lab",
+        collaborator: "Client XYZ",
         iconURL: onegpioEspImage,
         insetIconURL: onegpioEspInsetIconURL,
         description: 'OneGPIOEsp',
@@ -385,11 +385,11 @@ export default [
 
     }
 ,
-
+/* 
     {
         name: 'OneGpio Picoboard',
         extensionId: 'onegpioPicoboard',
-        collaborator: "Mr. Y's Lab",
+        collaborator: "Client XYZ",
         iconURL: onegpioPicoboardImage,
         insetIconURL: onegpioPicoboardInsetIconURL,
         description: 'OneGPIOPicoboard',
@@ -404,7 +404,7 @@ export default [
     {
         name: 'OneGpio Playground Express',
         extensionId: 'onegpioCpx',
-        collaborator: "Mr. Y's Lab",
+        collaborator: "Client XYZ",
         iconURL: onegpioCpxImage,
         insetIconURL: onegpioCpxInsetIconURL,
         description: 'OneGPIOCpx',
@@ -419,7 +419,7 @@ export default [
     {
         name: 'OneGpio RoboHAT MM1',
         extensionId: 'onegpioRoboHAT',
-        collaborator: "Mr. Y's Lab",
+        collaborator: "Client XYZ",
         iconURL: onegpioRoboHATImage,
         insetIconURL: onegpioRoboHATInsetIconURL,
         description: 'OneGPIORoboHAT',
@@ -434,7 +434,7 @@ export default [
     {
         name: 'OneGpio Raspberry Pi Pico',
         extensionId: 'onegpioRpiPico',
-        collaborator: "Mr. Y's Lab",
+        collaborator: "Client XYZ",
         iconURL: onegpioRpiPicoImage,
         insetIconURL: onegpioRpiPicoInsetIconURL,
         description: 'onegpioRpiPico',
@@ -444,5 +444,5 @@ export default [
         bluetoothRequired: false,
         helpLink: 'https://mryslab.github.io/s3-extend/'
 
-    }
+    } */
 ];
