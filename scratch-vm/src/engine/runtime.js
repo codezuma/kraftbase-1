@@ -1539,7 +1539,7 @@ class Runtime extends EventEmitter {
     /**
      * Restart a thread in place, maintaining its position in the list of threads.
      * This is used by `startHats` to and is necessary to ensure 2.0-like execution order.
-     * Test project: https://scratch.mit.edu/projects/130183108/
+     * Test project: projects/130183108/
      * @param {!Thread} thread Thread object to restart.
      * @return {Thread} The restarted thread.
      */
