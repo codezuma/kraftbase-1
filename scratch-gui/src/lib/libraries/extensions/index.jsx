@@ -68,7 +68,7 @@ import onegpioRpiPicoImage from './onegpioRpiPico/onegpioRpiPico.png';
 import onegpioRpiPicoInsetIconURL from './onegpioRpiPico/onegpioRpiPico-small.png';
 
 export default [
-    /* {
+     {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
@@ -215,7 +215,7 @@ export default [
                 id="gui.extension.microbit.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/microbit'
+        helpLink: 'microbit'
     },
     {
         name: 'LEGO MINDSTORMS EV3',
@@ -245,7 +245,7 @@ export default [
                 id="gui.extension.ev3.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/ev3'
+        helpLink: 'ev3'
     },
     {
         name: 'LEGO BOOST',
@@ -276,7 +276,7 @@ export default [
                 id="gui.extension.boost.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/boost'
+        helpLink: 'boost'
     },
     {
         name: 'LEGO Education WeDo 2.0',
@@ -307,7 +307,7 @@ export default [
                 id="gui.extension.wedo2.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/wedo'
+        helpLink: 'wedo'
     },
     {
         name: 'Go Direct Force & Acceleration',
@@ -337,11 +337,11 @@ export default [
                 id="gui.extension.gdxfor.connectingMessage"
             />
         ),
-        helpLink: 'https://scratch.mit.edu/vernier'
+        helpLink: 'vernier'
     }
-, */
+, 
     {
-        name: 'OneGpio Arduino',
+        name: 'Arduino',
         extensionId: 'onegpioArduino',
         collaborator: "Client XYZ",
         iconURL: onegpioArduinoImage,
@@ -356,7 +356,7 @@ export default [
     }
 ,
    /*  {
-        name: 'OneGpio Raspberry Pi',
+        name: 'Raspberry Pi',
         extensionId: 'onegpioRpi',
         collaborator: "Client XYZ",
         iconURL: onegpioRpiImage,
@@ -368,10 +368,10 @@ export default [
         bluetoothRequired: false,
         helpLink: 'https://mryslab.github.io/s3-extend/'
 
-    }
-, */
+    } */
+, 
     {
-        name: 'OneGpio ESP-8266',
+        name: 'ESP-8266',
         extensionId: 'onegpioEsp',
         collaborator: "Client XYZ",
         iconURL: onegpioEspImage,
@@ -384,10 +384,9 @@ export default [
         helpLink: 'https://mryslab.github.io/s3-extend/'
 
     }
-,
-/* 
-    {
-        name: 'OneGpio Picoboard',
+, 
+  /*   {
+        name: 'Picoboard',
         extensionId: 'onegpioPicoboard',
         collaborator: "Client XYZ",
         iconURL: onegpioPicoboardImage,
@@ -399,10 +398,10 @@ export default [
         bluetoothRequired: false,
         helpLink: 'https://mryslab.github.io/s3-extend/'
 
-    }
+    } */
 ,
-    {
-        name: 'OneGpio Playground Express',
+   /*  {
+        name: 'Playground Express',
         extensionId: 'onegpioCpx',
         collaborator: "Client XYZ",
         iconURL: onegpioCpxImage,
@@ -414,10 +413,10 @@ export default [
         bluetoothRequired: false,
         helpLink: 'https://mryslab.github.io/s3-extend/'
 
-    }
+    } */
 ,
-    {
-        name: 'OneGpio RoboHAT MM1',
+/*     {
+        name: 'RoboHAT MM1',
         extensionId: 'onegpioRoboHAT',
         collaborator: "Client XYZ",
         iconURL: onegpioRoboHATImage,
@@ -429,10 +428,10 @@ export default [
         bluetoothRequired: false,
         helpLink: 'https://mryslab.github.io/s3-extend/'
 
-    }
+    } */
 ,
-    {
-        name: 'OneGpio Raspberry Pi Pico',
+    /* {
+        name: 'Raspberry Pi Pico',
         extensionId: 'onegpioRpiPico',
         collaborator: "Client XYZ",
         iconURL: onegpioRpiPicoImage,
@@ -444,5 +443,5 @@ export default [
         bluetoothRequired: false,
         helpLink: 'https://mryslab.github.io/s3-extend/'
 
-    } */
+    }  */
 ];
